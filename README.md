@@ -65,11 +65,11 @@ Se desplegó Ghost de forma local exitosamente en el puerto 2368.
 
 * Resultado despliegue local en la terminal
 
-![Imagen mostrando el despliegue local de Ghost en la terminal](/reporte/images/1-despliegue-local.png)
+![Imagen mostrando el despliegue local de Ghost en la terminal](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/1-despliegue-local.png)
 
 * Resultado despliegue local en el navegador
 
-![Imagen mostrando el despliegue local de Ghost](/reporte/images/7-despliegue-local-navegador.png)
+![Imagen mostrando el despliegue local de Ghost](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/7-despliegue-local-navegador.png)
 
 ____
 ### __Configurar un sistema de registro de incidencias__
@@ -77,9 +77,9 @@ ____
 
 Se hizo uso de GitHub, almacenando el despliegue local de Ghost v3.41.1, en un repositorio accesible públicamente en el enlace a continuación [MISW-4103_Ghost_Semana1](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1), para registrar las incidencias en la pestaña de Issues del mismo, creando adicionalmente una plantilla que contiene la información básica necesaria en el momento de crear la incidencia.
 
-![Imagen mostrando el botón para crear plantilla de incidencias](/reporte/images/2-sistema-incidencias-plantilla.png)
+![Imagen mostrando el botón para crear plantilla de incidencias](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/2-sistema-incidencias-plantilla.png)
 
-![Imagen mostrando el botón para crear plantilla de incidencias](/reporte/images/3-sistema-incidencias-contenido-plantilla.png)
+![Imagen mostrando el botón para crear plantilla de incidencias](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/3-sistema-incidencias-contenido-plantilla.png)
 
 ___
 ### __Revisar código fuente de Ghost__
@@ -98,15 +98,15 @@ Accedimos al repositorio del proyecto [Ghost](https://github.com/TryGhost/Ghost)
 #### Estructura de directorios
 * Directorio raíz
 
-![Directorio raíz del proyecto](/reporte/images/4-estructura-general.png)
+![Directorio raíz del proyecto](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/4-estructura-general.png)
 
 * Estructura del frontend
 
-![Estructura del frontend](/reporte/images/5-estructura-frontend.png)
+![Estructura del frontend](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/5-estructura-frontend.png)
 
 * Estructura del server
 
-![Estructura del server](/reporte/images/6-estructura-server.png)
+![Estructura del server](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/6-estructura-server.png)
 
 #### Patrones arquitectónicos
 *
