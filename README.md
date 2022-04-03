@@ -108,12 +108,31 @@ Accedimos al repositorio del proyecto [Ghost](https://github.com/TryGhost/Ghost)
 
 ![Estructura del server](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/6-estructura-server.png)
 
-#### Patrones arquitectónicos
-*
+#### Patrones arquitectónicos y de diseño
+* Singleton (GoF - Patrón creacional)
+  > Se asegura que solo existe una instancia del servicio de URLs dentro de la aplicación, mediante su exposición única como se aprecia en la siguiente imagen:
 
-#### Patrones de diseño
-*
+  ![Uso del patrón Singleton en frontend de Ghost](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/8-singleton.png)
 
+* Facade (GoF - Patrón estructural)
+  > Se implementa una fachada que se encarga de exponer objetos con funcionalidades específicas.
+
+  ![Uso del patrón Facade en server de Ghost](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/10-facade.png)
+
+* Observer (GoF - Patrón de comportamiento)
+  > El servicio de URL del frontend hace uso del patrón Observador, creando un recurso que hereda de la clase EventEmmiter, permitiendo emitir actualizaciones basadas en eventos específicos.
+
+  ![Uso del patrón Observer en frontend de Ghost](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/11-observer.png)
+
+* Single responsability principle (SOLID)
+  > En la imagen a continuación se evidencia como la responsabilidad se asigna a servicios distintos en lugar de reunirlos en uno solo, es posible identificar el servicio de aplicación, el de temas y el de configuración del frontend.
+
+  ![Uso del principio de responsabilidad única en el servidor](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/9-srp.png)
+
+* Alta cohesión (GRASP)
+  > El componente GhostServer presenta una alta cohesión, puesto que sus funcionalidades están relacionadas únicamente con características propias del servidor, como encendido, parada y apagado.
+
+  ![Alta cohesión en el objeto GhostServer](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/images/12-cohesion.png)
 ___
 ### __Explorar aplicación__
 > Explorar rápidamente la aplicación con el objetivo de identificar la estrategia de navegación usada (menús, pestañas, botones, enlaces, etc.) y las funcionalidades de la ABP. Dedique no más de 10 minutos a esto.
@@ -178,25 +197,45 @@ ____
 #### Listado de Funcionalidades
 
 * Registro de usuarios
+  > Se permite el registro de personal de administración del sitio con distintos roles.
 * Panel de configuración
+  > Cuenta con un sitio central de configuración de parámetros generales, que incluye la administración de idioma, título y descripción del sitio. Cambio de multimedia principal como íconos y logos.
 * Creación, edición, eliminación y consulta de posts
+  > Característica principal de la aplicación que permite la administración de contenidos publicados, así como borradores y programación de publicación.
 * Visualización del sitio
+  > El ambiente de desarrollo cuenta con la posibilidad de previsualizar el contenido generado, dando una idea general de cómo se verá el sitio una vez desplegado en producción.
 * Creación, edición, eliminación y consulta de páginas
+  > Se incluye funcionalidad de creación de páginas dentro del sitio, con apuntadores propios y personalización de los mismos.
 * Etiquetas
+  > Las publicaciones pueden ser marcadas con descriptores predefinidos, los cuales también pueden ser creados, consultados, editados y eliminados.
 * Perfiles de usuario
+  > Los perfiles de usuario pueden ser editados, añadiendo avatares, información de redes sociales, biografía, etcétera.
 * Modificación de diseño visual
+  > Varias secciones del aplicativo permiten la modificación de aspectos visuales, como colores, imágenes, íconos, logos, avatares, etc.
 * Modo claro/oscuro
+  > Dentro de las funcionalidades experimentales de la versión 3.41.1 se permite hacer uso del modo oscuro, el cual intercambia los colores predeterminados, los cuales son brillantes en su mayoría, por colores oscuros que son más amigables con los ojos.
 * Integración con aplicaciones externas
+  > Existe la posibilidad de conectar herramientas externas, como Unsplash, útil para encontrar y usar fotos royalty free.
 * Búsquedas
+  > El panel de administración principal cuenta con una herramienta global de búsqueda que permite navegar fácilmente entre secciones y encontrar contenido relevante mediante palabras clave.
 * Funcionalidades experimentales
+  > La sección de herramientas experimentales permite hacer uso o implementación de utilidades como creación de miembros suscriptores y gestión general de contenido.
 * Carga de archivos
+  > Varias secciones del panel de administración incluyen carga de archivos, principalmente imágenes para uso en perfiles de usuario, banners de los post, logos, etc.
 * Exportación de archivos
+  > Se permite exportar el contenido en lenguaje JSON (JavaScript Object Notation) el cual es compatible con gran cantidad de aplicativos web.
 * Soporte y ayuda
+  > La sección de soporte y ayuda contiene enlaces a documentación relevante para la exploración de la documentación oficial de la herramienta.
 * Noticias
+  > Una ventana modal informa de las novedades de la aplicación en la versión utilizada.
 * Inyección de código
+  > Las secciones del encabezado y pie de página permite inyección de código personalizado, principalmente para incluir funcionalidades como rastreo y etiquetas de metadatos.
 * Configuración general de la página
+  > Se habilita la modificación de título y descripción del sitio, entre otras características.
 * Organización de listas de contenido
+  > Las vistas que presentan información en formato de lista pueden ser ordenadas de acuerdo a parámetros específicos.
 * Filtrado de listas
+  > Las vistas que presentan información en formato de lista pueden ser filtradas de acuerdo a parámetros específicos.
 
 #### Modelo de GUI
 
