@@ -205,4 +205,9 @@ Se utilizó un tablero de Miro para el análisis del flujo de interfaz gráfica 
 [Tablero MIRO - MISW-4103](https://miro.com/app/board/uXjVOAa2BLw=/?invite_link_id=469249788849)
 
 #### Modelo de dominio
+
+Para el modelo de dominio se utilizó una herramienta de ingeniería inversa para bases de datos: DbSchema, la cual puede ser descargada desde [su sitio web](https://dbschema.com/)
+
+El resultado del proceso de ingeniería inversa se presenta a continuación:
+[Documento Modelo de Dominio](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/blob/main/reporte/documents/modelo-dominio.pdf)
 ____
