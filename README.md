@@ -184,6 +184,11 @@ El enlace está compartido con usuarios Uniandes, por favor hacer login previo a
 #### Videos
 |Incidencia|Video|
 |----------|-----|
+|[Incidencia 001](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/1)|[P002](https://www.loom.com/share/f126c3c6898f43d6ad34bddd335e2a25)|
+|[Incidencia 002](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/7)|[P004](https://www.loom.com/share/027c8178dca642cd9c41316862228869)|
+|[Incidencia 003](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/8)|[P006](https://www.loom.com/share/d91844fc20a3425aacbcc204c606ec6b)|
+|[Incidencia 004](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/9)|[P008](https://www.loom.com/share/4deadf5c5f2a4d0ca0738edcb3d88f94)|
+|[Incidencia 005](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/10)|[P010](https://www.loom.com/share/f33904a6bf474ebda1411f7a8212d908)|
 |[Incidencia 006](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/2)|[P012](https://www.loom.com/share/e9810e8d95844825ac5de5def5d3cb98)|
 |[Incidencia 007](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/3)|[P013](https://www.loom.com/share/be48ff62cad4444c98dc1704a2926f9c)|
 |[Incidencia 008](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/4)|[P016](https://www.loom.com/share/994ddb3b0ebf450482a5822e8c48608b)|
