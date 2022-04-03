@@ -200,5 +200,9 @@ ____
 
 #### Modelo de GUI
 
+Se utilizó un tablero de Miro para el análisis del flujo de interfaz gráfica de usuario. A continuación se relaciona el enlace:
+
+[Tablero MIRO - MISW-4103](https://miro.com/app/board/uXjVOAa2BLw=/?invite_link_id=469249788849)
+
 #### Modelo de dominio
 ____
