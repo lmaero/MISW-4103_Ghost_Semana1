@@ -192,7 +192,7 @@ El enlace está compartido con usuarios Uniandes, por favor hacer login previo a
 |[Incidencia 006](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/2)|[P012](https://www.loom.com/share/e9810e8d95844825ac5de5def5d3cb98)|
 |[Incidencia 007](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/3)|[P013](https://www.loom.com/share/be48ff62cad4444c98dc1704a2926f9c)|
 |[Incidencia 008](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/4)|[P016](https://www.loom.com/share/994ddb3b0ebf450482a5822e8c48608b)|
-|[Incidencia 009](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/5)|[P019](https://www.loom.com/share/b97b12edd6ae4da7b4a9ec85188fa13a)|
+|[Incidencia 009](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/5)|[P018](https://www.loom.com/share/b97b12edd6ae4da7b4a9ec85188fa13a)|
 |[Incidencia 010](https://github.com/lmguzmanp/MISW-4103_Ghost_Semana1/issues/6)|[P020](https://www.loom.com/share/a0f64d36685a408382de0ca8df263892)|
 
 ____
