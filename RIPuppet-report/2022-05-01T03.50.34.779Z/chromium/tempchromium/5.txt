@@ -1,0 +1,22 @@
+body
+  div.errorContainer
+    img
+    h1
+      #text
+    p
+      #text
+    p.errorButton
+      a
+        #text
+    p.errorFooter
+      a
+        #text
+      a
+        #text
+      a
+        #text
+      a
+        #text
+      a
+        #text
+      #text
